@@ -1,0 +1,26 @@
+<soap:Envelope xmlns:v1="http://www.fna.gov.co/esb/services/soap/credito/consultarpuntaje/v1" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Header>
+      <v1:headerRs>
+         <clientTransactionID>iovis rapidum iaculata</clientTransactionID>
+         <datetime>2021-07-02T11:16:34.675945-05:00</datetime>
+         <systemId>114</systemId>
+         <status>
+            <statusType>OK</statusType>
+            <statusCode>00</statusCode>
+            <statusDesc>Transacción satisfactoria</statusDesc>
+            <systemCode>0</systemCode>
+            <systemDesc>Success</systemDesc>
+            <severity>INFO</severity>
+         </status>
+      </v1:headerRs>
+   </soap:Header>
+   <soap:Body>
+      <v1:consultarPuntajeRs>
+         <Puntaje>
+            <valor>689</valor>
+            <tipoPuntaje>ScoreFNA</tipoPuntaje>
+            <Aprobado>true</Aprobado>
+         </Puntaje>
+      </v1:consultarPuntajeRs>
+   </soap:Body>
+</soap:Envelope>

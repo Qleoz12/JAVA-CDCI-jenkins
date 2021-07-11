@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v1="http://www.fna.gov.co/esb/services/soap/credito/modificarinformacionlaboralformulario/v1">
+   <soap:Header>
+      <v1:headerRs>
+         <datetime>2021-07-06T10:23:18.763717-05:00</datetime>
+        <systemId>094</systemId>
+        <status>
+            <statusType>OK</statusType>
+            <statusCode>00</statusCode>
+            <statusDesc>TransacciÃ³n satisfactoria</statusDesc>
+            <severity>INFO</severity>
+        </status>
+      </v1:headerRs>
+   </soap:Header>
+   <soap:Body>
+      <v1:ModificarInformacionLaboralFormularioRs/>
+   </soap:Body>
+</soap:Envelope>

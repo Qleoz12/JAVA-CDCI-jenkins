@@ -1,0 +1,18 @@
+<S:Envelope xmlns:S="http://www.w3.org/2003/05/soap-envelope"
+xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+<S:Header>
+    <NS1:headerRs xmlns:NS1="http://www.fna.gov.co/esb/services/soap/credito/validarpoliticasparacreaciontramitecredito/v1">
+        <datetime>2021-07-06T10:23:18.763717-05:00</datetime>
+        <systemId>094</systemId>
+        <status>
+            <statusType>OK</statusType>
+            <statusCode>00</statusCode>
+            <statusDesc>TransacciÃ³n satisfactoria</statusDesc>
+            <severity>INFO</severity>
+        </status>
+    </NS1:headerRs>
+</S:Header>
+<S:Body>
+    <NS2:ValidarPoliticasParaCreacionTramiteCreditoRs xmlns:NS2="http://www.fna.gov.co/esb/services/soap/credito/validarpoliticasparacreaciontramitecredito/v1"/>
+</S:Body>
+</S:Envelope>

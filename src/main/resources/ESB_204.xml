@@ -1,0 +1,42 @@
+<soap:Envelope xmlns:ns3="http://www.fna.gov.co/esb/services/soap/cuentaavc/calcularpuntaje/v1" xmlns:v1="http://www.fna.gov.co/esb/services/soap/credito/calcularpuntajeorq/v1" xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Header>
+      <v1:headerRs>
+         <datetime>2021-07-06T21:22:57.897324-05:00</datetime>
+         <systemId>001</systemId>
+         <status>
+            <statusType>ERROR</statusType>
+            <statusCode>ESB102</statusCode>
+            <statusDesc>ERROR RETORNADO POR EL BACKEND</statusDesc>
+            <severity>ERROR</severity>
+            <errorMessages>
+               <errorMessage>
+                  <code>ESB102</code>
+                  <message>ERROR RETORNADO POR EL BACKEND</message>
+                  <type>Error del servicio SVC_CuentaAVCCalcularPuntaje</type>
+               </errorMessage>
+            </errorMessages>
+         </status>
+      </v1:headerRs>
+   </soap:Header>
+   <soap:Body>
+      <NS2:calcularPuntajeOrqRs xmlns:NS2="http://www.fna.gov.co/esb/services/soap/credito/calcularpuntajeorq/v1">
+         <calcularPuntajeCesantiasRs>
+            <datosPuntajeCesantias>
+               <factorTramite>PUNTAJE POR CONSOLIDACION DE CESANTIAS</factorTramite>
+               <puntaje>900</puntaje>
+            </datosPuntajeCesantias>
+            <datosPuntajeCesantias>
+               <factorTramite>PUNTAJE POR ESFUERZO</factorTramite>
+               <puntaje>900</puntaje>
+            </datosPuntajeCesantias>
+            <datosPuntajeCesantias>
+               <factorTramite>PUNTAJE POR RETIROS PARCIALES</factorTramite>
+               <puntaje>900</puntaje>
+            </datosPuntajeCesantias>
+            <total>
+               <total>900</total>
+            </total>
+         </calcularPuntajeCesantiasRs>
+      </NS2:calcularPuntajeOrqRs>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,35 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v1="http://www.fna.gov.co/esb/services/soap/credito/creartramitecredito/v1">
+   <soap:Header>
+      <v1:headerRs>
+         <!--Optional:-->
+         <clientTransactionID>1</clientTransactionID>
+         <!--Optional:-->
+         <datetime>1</datetime>
+         <!--Optional:-->
+         <systemId>1</systemId>
+         <!--Optional:-->
+         <status>
+            <!--Optional:-->
+            <statusType>1</statusType>
+            <!--Optional:-->
+            <statusCode>1</statusCode>
+            <!--Optional:-->
+            <statusDesc>mock service</statusDesc>
+            <!--Optional:-->
+            <systemCode>?</systemCode>
+            <!--Optional:-->
+            <systemDesc>?</systemDesc>
+            <!--Optional:-->
+            <severity>?</severity>
+            <!--Optional:-->
+            <trace>?</trace>
+         </status>
+      </v1:headerRs>
+   </soap:Header>
+   <soap:Body>
+      <v1:CrearTramiteCreditoRs>
+         <!--Optional:-->
+         <idTramite>1</idTramite>
+      </v1:CrearTramiteCreditoRs>
+   </soap:Body>
+</soap:Envelope>
